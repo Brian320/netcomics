@@ -8,6 +8,16 @@ var swiper = new Swiper('.swiper-container.slider', {
     autoplay: 4000,
     keyboardControl: true
 });
+var swiper = new Swiper('.swiper-container.login', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    spaceBetween: 0,
+    loop: false,
+    autoplay: 4000,
+    keyboardControl: true
+});
 $(document).ready(function(){
 	//BUSCADOR
 	$(document).on("click", ".nc_search", function(e) {

@@ -8,7 +8,7 @@
   <!-- Bootstrap -->
   <link href="./resources/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="./resources/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <?php if($section == "home") { ?>
+  <?php if($section == "home" || $section == "login" || $section == "singup") { ?>
   <link rel="stylesheet" href="./resources/bower_components/swiper/swiper.min.css">
   <?php } ?>
   <link href="./resources/css/styles.css" rel="stylesheet">

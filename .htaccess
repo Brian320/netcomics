@@ -1,0 +1,14 @@
+php_value include_path '.;C:\xampp\php\PEAR;C:\xampp\htdocs\netcomics'
+
+<FilesMatch "\.(ttf|otf|woff)$">
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
+RewriteEngine on
+RewriteOptions inherit
+RewriteBase /netcomics/
+Options +FollowSymLinks
+
+RewriteRule ^login views/login.php [L]
+RewriteRule ^login/ views/login.php [L]
