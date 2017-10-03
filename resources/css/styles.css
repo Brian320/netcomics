@@ -487,3 +487,23 @@ footer .container {
     margin: 0 auto;
     display: block;
 }
+/*LOGIN*/
+.msg-status {
+    font-weight: bold;
+    margin-top: 10px;
+    opacity: 0;
+}
+.nc-login {
+    font-weight: bold;
+    font-size: 16px;
+}
+.nc-color {
+    color: #fff;
+    background-color: #2396fb;
+    border-color: #208be8;
+}
+.nc-color:hover, .nc-color:active, .nc-color:focus {
+    color: #fff !important;
+    background-color: #329efd !important;
+    border-color: #2d91e8 !important;
+}
