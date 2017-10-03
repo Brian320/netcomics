@@ -17,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand logo" href="#"></a>
+      <a class="navbar-brand logo" href="./"></a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
@@ -108,7 +108,7 @@
         <?php 
         } else {
         ?>
-        <li class="active"><a href="#"><?=$lang["nav_login_btn"];?></a></li>
+        <li class="active"><a href="./login"><?=$lang["nav_login_btn"];?></a></li>
         <li class="active"><a href="#"><?=$lang["nav_singup_btn"];?></a></li>
         <?php
         }
