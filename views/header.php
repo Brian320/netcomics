@@ -99,10 +99,10 @@
               <br>
             </center>-->
             <li><a href="#"><?=$lang["nav_profile_btn"];?></a></li>
-            <li><a href="#"><?=$lang["nav_notification_btn"];?> <small class="notifications_count">5</small></a></li>
+            <!--<li><a href="#"><?=$lang["nav_notification_btn"];?> <small class="notifications_count">5</small></a></li>-->
             <li><a href="#"><?=$lang["nav_config_btn"];?></a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#"><?=$lang["nav_logout_btn"];?></a></li>
+            <li><a href="./logout"><?=$lang["nav_logout_btn"];?></a></li>
           </ul>
         </li>
         <?php 
