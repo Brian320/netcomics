@@ -63,10 +63,13 @@ $lang["comments_report_placeholder"] = "Escribe el motivo del reporte";
 $lang["comments_report_send_btn"] = "Reportar";
 $lang["comments_report_cancel_btn"] = "Cancelar";
 //LOGIN
-$lang["login_login_btn"] = "Iniciar Sesión";
-$lang["login_remember_me"] = "Recordarme";
+$lang["login_login_title"] = "Iniciar Sesión";
+$lang["login_login_btn"] = "Iniciar sesión";
+$lang["login_remember_me"] = "No cerrar sesión";
 $lang["login_email"] = "Email";
+$lang["login_username"] = "Usuario";
 $lang["login_password"] = "Contraseña";
+$lang["login_empty_login"] = "Debes ingresar un usuario y una contraseña";
 //EMPTY STATES
 $lang["emptystate_notifications"] = "No tienes niguna notificación";
 //ERRORES
