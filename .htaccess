@@ -10,5 +10,9 @@ RewriteOptions inherit
 RewriteBase /netcomics/
 Options +FollowSymLinks
 
+#LOGIN
 RewriteRule ^login views/login.php [L]
 RewriteRule ^login/ views/login.php [L]
+#LOGOUT
+RewriteRule ^logout controllers/logout.php [L]
+RewriteRule ^logout/ controllers/logout.php [L]
