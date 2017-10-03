@@ -1,9 +1,9 @@
 <?php
 include '../core/config.php';
 
-$user_post = $_GET["username"];
-$pass_post = $_GET["password"];
-$remember_me = $_GET["remember_me"];
+$user_post = $_POST["username"];
+$pass_post = $_POST["password"];
+$remember_me = $_POST["remember_me"];
 
 $username_query = mysqli_query($link, "SELECT id FROM users WHERE username = '$user_post'");    
 $username_result = mysqli_fetch_row($username_query);
